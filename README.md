@@ -63,7 +63,7 @@ flatpak install flathub org.gnome.Platform//46 org.gnome.Sdk//46
 ### Build
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/dvd-ripper-flatpak.git
+git clone https://github.com/CyDragonReborn/dvd-ripper-flatpak.git
 cd dvd-ripper-flatpak
 
 flatpak-builder --user --install --force-clean build-dir io.github.dvdripper.app.json
